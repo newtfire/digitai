@@ -1,0 +1,51 @@
+# -----------------------
+# OS/system files (macOS & Windows)
+# -----------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -----------------------
+# IDE/editor metadata
+# -----------------------
+.idea/
+*.iml
+
+# -----------------------
+# Python cache & environments
+# -----------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+pyvenv.cfg
+etc/
+share/
+
+# -----------------------
+# Notebooks
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Local config files
+# -----------------------
+.env/
+local.yaml
+digitaiCore/config.yaml
+
+# -----------------------
+# Logs and generated data
+# -----------------------
+data/p5/p5Neo4j.jsonl
+data/p5/p5Embeddings.jsonl
+data/p5/p5Index.faiss
+data/p5/p5IdMap.json
+
