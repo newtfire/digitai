@@ -1,0 +1,3 @@
+[submodule "digitai-2025"]
+	path = digitai-2025
+	url = https://github.com/newtfire/digitai-2025.git
