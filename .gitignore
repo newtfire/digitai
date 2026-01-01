@@ -1,5 +1,5 @@
 # -----------------------
-# OS/system files (macOS & Windows)
+# OS / system files (macOS & Windows)
 # -----------------------
 .DS_Store
 .DS_Store?
@@ -10,7 +10,7 @@ ehthumbs.db
 Thumbs.db
 
 # -----------------------
-# IDE/editor metadata
+# IDE / editor metadata
 # -----------------------
 .idea/
 *.iml
@@ -20,32 +20,18 @@ Thumbs.db
 # -----------------------
 __pycache__/
 *.py[cod]
+
 .venv/
 venv/
 env/
-Lib/
-Scripts/
 pyvenv.cfg
-etc/
-share/
 
 # -----------------------
-# Notebooks
+# Jupyter notebooks
 # -----------------------
 .ipynb_checkpoints/
 
 # -----------------------
-# Local config files
+# Local-only model artifacts
 # -----------------------
-.env/
-local.yaml
-digitaiCore/config.yaml
-
-# -----------------------
-# Logs and generated data
-# -----------------------
-data/p5/p5Neo4j.jsonl
-data/p5/p5Embeddings.jsonl
-data/p5/p5Index.faiss
-data/p5/p5IdMap.json
-
+huggingFaceCache/

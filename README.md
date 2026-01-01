@@ -49,3 +49,10 @@ an interactive AI system developed to equip a small, localized AI model with acc
 > This project is part of an ongoing digital humanities research initiative at Penn State Behrend. Please cite responsibly.
 ---
 
+### Dependencies
+
+During active development, `requirements.txt` lists required packages
+without pinned versions. This is intentional.
+
+Exact version pinning will be added once the inference stack stabilizes.
+
